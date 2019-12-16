@@ -1,0 +1,25 @@
+{
+  "name": "webpack-plugin",
+  "version": "1.0.0",
+  "description": "webpack打包发布",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SS-13/webpack-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SS-13/webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/SS-13/webpack-plugin#readme",
+  "devDependencies": {
+    "terser-webpack-plugin": "^2.3.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
